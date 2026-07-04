@@ -6,7 +6,7 @@ $(function () {
     { label: "Projects", url: "projects.html" },
   ]
 
-  for (const { label, url } of linkList) {
+  $.each(linkList, function(index, {label, url}) {
     $(".navigation__list").append(
       `<li>
         <a href="${url}" class="navigation__link">
@@ -14,5 +14,5 @@ $(function () {
         </a>
       </li>`
     );
-  }
+  });
 });
