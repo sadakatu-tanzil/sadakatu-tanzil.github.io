@@ -8,7 +8,11 @@ $(function () {
 
   for (const { label, url } of linkList) {
     $(".navigation__list").append(
-      `<li><a href="${url}">${label}</a></li>`
+      `<li>
+        <a href="${url}" class="navigation__link">
+          ${label}
+        </a>
+      </li>`
     );
   }
 });

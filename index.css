@@ -21,6 +21,9 @@
   align-content: center;
   height: 50px;
   background-color: var(--color-3);
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
 }
 
 .header__branding {
@@ -45,4 +48,25 @@
 /* Utilities */
 .allow-select-text {
   user-select: text;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: var(--color-5);
+  font-weight: bold;
+}
+
+.navigation__link:hover {
+  border-bottom: 2px solid var(--color-5);
 }
