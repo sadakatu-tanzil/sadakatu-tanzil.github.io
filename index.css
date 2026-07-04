@@ -7,6 +7,13 @@
   user-select: none;
 }
 
+:root {
+  --color-1: #2F2FE4;
+  --color-2: #162E93;
+  --color-3: #1A1953;
+  --color-4: #080616;
+}
+
 /* Utilities */
 .allow-select-text {
   user-select: text;
