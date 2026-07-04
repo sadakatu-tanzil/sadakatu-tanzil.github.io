@@ -15,6 +15,14 @@
   --color-5: #efefef;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 50px;
+  background-color: var(--color-1);
+}
+
 /* Utilities */
 .allow-select-text {
   user-select: text;
